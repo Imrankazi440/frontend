@@ -12,7 +12,7 @@
 
   <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
   <script>
-    const socket = io("https://your-backend-server.onrender.com"); // Change to real backend URL
+    const socket = io("https://chat-backend.onrender.com"); // Replace with your backend URL
 
     function sendMessage() {
       const msg = document.getElementById('input').value;
